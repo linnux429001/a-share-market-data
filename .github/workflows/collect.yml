@@ -39,6 +39,7 @@ jobs:
             esac
           fi
           python collect.py
+          python analyze.py
           python - <<'PY'
           import json
           from pathlib import Path
@@ -59,7 +60,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/latest.json
+          git add data/latest.json data/watchlist_analysis.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update market snapshot'
             git push
