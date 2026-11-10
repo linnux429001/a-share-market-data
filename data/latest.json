@@ -1,0 +1,1437 @@
+{
+  "collected_at": "2026-11-10T22:25:32.018391+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "Eastmoney public web API (unofficial)",
+  "market_data_timestamp": null,
+  "note": "Source response has no verified exchange timestamp; data may be delayed or stale.",
+  "industry": {
+    "total": 496,
+    "top": [
+      {
+        "code": "BK1295",
+        "name": "其他数字媒体",
+        "change_pct": 9.8,
+        "turnover_cny": 3633557098.0,
+        "turnover_rate_pct": 17.39
+      },
+      {
+        "code": "BK1298",
+        "name": "文字媒体",
+        "change_pct": 9.03,
+        "turnover_cny": 6687930270.0,
+        "turnover_rate_pct": 20.61
+      },
+      {
+        "code": "BK1299",
+        "name": "影视动漫制作",
+        "change_pct": 8.03,
+        "turnover_cny": 16590604644.0,
+        "turnover_rate_pct": 11.32
+      },
+      {
+        "code": "BK1222",
+        "name": "影视院线",
+        "change_pct": 7.05,
+        "turnover_cny": 18073545733.0,
+        "turnover_rate_pct": 9.98
+      },
+      {
+        "code": "BK1454",
+        "name": "其他黑色家电",
+        "change_pct": 6.42,
+        "turnover_cny": 1144704692.0,
+        "turnover_rate_pct": 2.85
+      },
+      {
+        "code": "BK1456",
+        "name": "其他家电Ⅲ",
+        "change_pct": 5.18,
+        "turnover_cny": 295178104.0,
+        "turnover_rate_pct": 3.09
+      },
+      {
+        "code": "BK1243",
+        "name": "其他家电Ⅱ",
+        "change_pct": 5.18,
+        "turnover_cny": 295178104.0,
+        "turnover_rate_pct": 3.09
+      },
+      {
+        "code": "BK1524",
+        "name": "汽车综合服务",
+        "change_pct": 5.04,
+        "turnover_cny": 1146026521.0,
+        "turnover_rate_pct": 4.11
+      },
+      {
+        "code": "BK1221",
+        "name": "数字媒体",
+        "change_pct": 4.84,
+        "turnover_cny": 20576345792.0,
+        "turnover_rate_pct": 8.8
+      },
+      {
+        "code": "BK1625",
+        "name": "钨",
+        "change_pct": 4.73,
+        "turnover_cny": 6122588126.0,
+        "turnover_rate_pct": 4.01
+      },
+      {
+        "code": "BK0486",
+        "name": "传媒",
+        "change_pct": 4.53,
+        "turnover_cny": 87197027316.0,
+        "turnover_rate_pct": 5.45
+      },
+      {
+        "code": "BK1293",
+        "name": "营销代理",
+        "change_pct": 4.46,
+        "turnover_cny": 19106312032.0,
+        "turnover_rate_pct": 9.36
+      },
+      {
+        "code": "BK1338",
+        "name": "消费电子零部件及组装",
+        "change_pct": 4.44,
+        "turnover_cny": 48218453555.0,
+        "turnover_rate_pct": 2.28
+      },
+      {
+        "code": "BK1333",
+        "name": "LED",
+        "change_pct": 4.43,
+        "turnover_cny": 7972055126.0,
+        "turnover_rate_pct": 4.15
+      },
+      {
+        "code": "BK1220",
+        "name": "广告营销",
+        "change_pct": 4.4,
+        "turnover_cny": 20525169976.0,
+        "turnover_rate_pct": 5.99
+      },
+      {
+        "code": "BK1301",
+        "name": "游戏Ⅲ",
+        "change_pct": 4.39,
+        "turnover_cny": 12745236152.0,
+        "turnover_rate_pct": 4.51
+      },
+      {
+        "code": "BK1046",
+        "name": "游戏Ⅱ",
+        "change_pct": 4.39,
+        "turnover_cny": 12745236152.0,
+        "turnover_rate_pct": 4.51
+      },
+      {
+        "code": "BK1408",
+        "name": "机器人",
+        "change_pct": 4.36,
+        "turnover_cny": 16088856961.0,
+        "turnover_rate_pct": 3.7
+      },
+      {
+        "code": "BK1241",
+        "name": "黑色家电",
+        "change_pct": 4.32,
+        "turnover_cny": 1904795678.0,
+        "turnover_rate_pct": 1.28
+      },
+      {
+        "code": "BK1305",
+        "name": "燃料电池",
+        "change_pct": 4.3,
+        "turnover_cny": 87998464.0,
+        "turnover_rate_pct": 2.62
+      },
+      {
+        "code": "BK1037",
+        "name": "消费电子",
+        "change_pct": 4.28,
+        "turnover_cny": 53157651089.0,
+        "turnover_rate_pct": 2.38
+      },
+      {
+        "code": "BK1331",
+        "name": "数字芯片设计",
+        "change_pct": 4.25,
+        "turnover_cny": 84035659856.0,
+        "turnover_rate_pct": 3.44
+      },
+      {
+        "code": "BK1565",
+        "name": "会展服务",
+        "change_pct": 4.16,
+        "turnover_cny": 656937962.0,
+        "turnover_rate_pct": 4.51
+      },
+      {
+        "code": "BK1556",
+        "name": "教育运营及其他",
+        "change_pct": 4.09,
+        "turnover_cny": 675305276.0,
+        "turnover_rate_pct": 6.18
+      },
+      {
+        "code": "BK1297",
+        "name": "图片媒体",
+        "change_pct": 4.04,
+        "turnover_cny": 640634274.0,
+        "turnover_rate_pct": 5.69
+      },
+      {
+        "code": "BK1289",
+        "name": "大众出版",
+        "change_pct": 4.03,
+        "turnover_cny": 8101004479.0,
+        "turnover_rate_pct": 4.24
+      },
+      {
+        "code": "BK1292",
+        "name": "广告媒体",
+        "change_pct": 3.93,
+        "turnover_cny": 1418857944.0,
+        "turnover_rate_pct": 1.65
+      },
+      {
+        "code": "BK1038",
+        "name": "光学光电子",
+        "change_pct": 3.81,
+        "turnover_cny": 30705071608.0,
+        "turnover_rate_pct": 2.0
+      },
+      {
+        "code": "BK1334",
+        "name": "光学元件",
+        "change_pct": 3.79,
+        "turnover_cny": 12408696410.0,
+        "turnover_rate_pct": 3.2
+      },
+      {
+        "code": "BK1591",
+        "name": "通信网络设备及器件",
+        "change_pct": 3.72,
+        "turnover_cny": 64691352054.0,
+        "turnover_rate_pct": 2.97
+      },
+      {
+        "code": "BK1300",
+        "name": "院线",
+        "change_pct": 3.64,
+        "turnover_cny": 1482941089.0,
+        "turnover_rate_pct": 3.52
+      },
+      {
+        "code": "BK1460",
+        "name": "照明设备Ⅲ",
+        "change_pct": 3.63,
+        "turnover_cny": 3337099259.0,
+        "turnover_rate_pct": 4.95
+      },
+      {
+        "code": "BK1245",
+        "name": "照明设备Ⅱ",
+        "change_pct": 3.63,
+        "turnover_cny": 3337099259.0,
+        "turnover_rate_pct": 4.95
+      },
+      {
+        "code": "BK1291",
+        "name": "电视广播Ⅲ",
+        "change_pct": 3.58,
+        "turnover_cny": 4396100490.0,
+        "turnover_rate_pct": 3.53
+      },
+      {
+        "code": "BK1219",
+        "name": "电视广播Ⅱ",
+        "change_pct": 3.58,
+        "turnover_cny": 4396100490.0,
+        "turnover_rate_pct": 3.53
+      },
+      {
+        "code": "BK1294",
+        "name": "门户网站",
+        "change_pct": 3.52,
+        "turnover_cny": 4853642323.0,
+        "turnover_rate_pct": 3.84
+      },
+      {
+        "code": "BK1406",
+        "name": "印刷包装机械",
+        "change_pct": 3.51,
+        "turnover_cny": 2084256648.0,
+        "turnover_rate_pct": 5.13
+      },
+      {
+        "code": "BK1414",
+        "name": "锦纶",
+        "change_pct": 3.51,
+        "turnover_cny": 472126662.0,
+        "turnover_rate_pct": 1.63
+      },
+      {
+        "code": "BK1237",
+        "name": "自动化设备",
+        "change_pct": 3.47,
+        "turnover_cny": 39853813291.0,
+        "turnover_rate_pct": 2.92
+      },
+      {
+        "code": "BK1218",
+        "name": "出版",
+        "change_pct": 3.43,
+        "turnover_cny": 10880629170.0,
+        "turnover_rate_pct": 3.16
+      },
+      {
+        "code": "BK1335",
+        "name": "面板",
+        "change_pct": 3.4,
+        "turnover_cny": 10324320071.0,
+        "turnover_rate_pct": 1.41
+      },
+      {
+        "code": "BK1410",
+        "name": "其他自动化设备",
+        "change_pct": 3.33,
+        "turnover_cny": 6866462229.0,
+        "turnover_rate_pct": 2.91
+      },
+      {
+        "code": "BK1330",
+        "name": "模拟芯片设计",
+        "change_pct": 3.33,
+        "turnover_cny": 11803724917.0,
+        "turnover_rate_pct": 2.52
+      },
+      {
+        "code": "BK1407",
+        "name": "工控设备",
+        "change_pct": 3.3,
+        "turnover_cny": 9665721115.0,
+        "turnover_rate_pct": 2.29
+      },
+      {
+        "code": "BK1201",
+        "name": "电子",
+        "change_pct": 3.29,
+        "turnover_cny": 366822115854.0,
+        "turnover_rate_pct": 2.75
+      },
+      {
+        "code": "BK1452",
+        "name": "卫浴电器",
+        "change_pct": 3.27,
+        "turnover_cny": 186879045.0,
+        "turnover_rate_pct": 1.22
+      },
+      {
+        "code": "BK1354",
+        "name": "鞋帽及其他",
+        "change_pct": 3.2,
+        "turnover_cny": 1145028765.0,
+        "turnover_rate_pct": 2.55
+      },
+      {
+        "code": "BK1385",
+        "name": "航天装备Ⅲ",
+        "change_pct": 3.19,
+        "turnover_cny": 7671607799.0,
+        "turnover_rate_pct": 2.45
+      },
+      {
+        "code": "BK1232",
+        "name": "航天装备Ⅱ",
+        "change_pct": 3.19,
+        "turnover_cny": 7671607799.0,
+        "turnover_rate_pct": 2.45
+      },
+      {
+        "code": "BK1355",
+        "name": "运动服装",
+        "change_pct": 3.18,
+        "turnover_cny": 706422736.0,
+        "turnover_rate_pct": 4.17
+      },
+      {
+        "code": "BK1336",
+        "name": "其他电子Ⅲ",
+        "change_pct": 3.16,
+        "turnover_cny": 10236366967.0,
+        "turnover_rate_pct": 4.03
+      },
+      {
+        "code": "BK1223",
+        "name": "其他电子Ⅱ",
+        "change_pct": 3.16,
+        "turnover_cny": 10236366967.0,
+        "turnover_rate_pct": 4.03
+      },
+      {
+        "code": "BK1446",
+        "name": "其他计算机设备",
+        "change_pct": 3.15,
+        "turnover_cny": 13239436328.0,
+        "turnover_rate_pct": 2.1
+      },
+      {
+        "code": "BK1401",
+        "name": "纺织服装设备",
+        "change_pct": 3.13,
+        "turnover_cny": 2479949883.0,
+        "turnover_rate_pct": 3.76
+      },
+      {
+        "code": "BK1589",
+        "name": "通信应用增值服务",
+        "change_pct": 3.12,
+        "turnover_cny": 3578985656.0,
+        "turnover_rate_pct": 1.61
+      },
+      {
+        "code": "BK1440",
+        "name": "其他塑料制品",
+        "change_pct": 3.07,
+        "turnover_cny": 3902322758.0,
+        "turnover_rate_pct": 2.61
+      },
+      {
+        "code": "BK1564",
+        "name": "体育Ⅲ",
+        "change_pct": 3.01,
+        "turnover_cny": 208991188.0,
+        "turnover_rate_pct": 1.31
+      },
+      {
+        "code": "BK1273",
+        "name": "体育Ⅱ",
+        "change_pct": 3.01,
+        "turnover_cny": 208991188.0,
+        "turnover_rate_pct": 1.31
+      },
+      {
+        "code": "BK1546",
+        "name": "电商服务",
+        "change_pct": 2.99,
+        "turnover_cny": 935493942.0,
+        "turnover_rate_pct": 2.13
+      },
+      {
+        "code": "BK1337",
+        "name": "品牌消费电子",
+        "change_pct": 2.98,
+        "turnover_cny": 4939197534.0,
+        "turnover_rate_pct": 4.25
+      },
+      {
+        "code": "BK1036",
+        "name": "半导体",
+        "change_pct": 2.97,
+        "turnover_cny": 180029454289.0,
+        "turnover_rate_pct": 3.05
+      },
+      {
+        "code": "BK1599",
+        "name": "其他医疗服务",
+        "change_pct": 2.93,
+        "turnover_cny": 1001804596.0,
+        "turnover_rate_pct": 4.28
+      },
+      {
+        "code": "BK1526",
+        "name": "底盘与发动机系统",
+        "change_pct": 2.93,
+        "turnover_cny": 26432082892.0,
+        "turnover_rate_pct": 2.66
+      },
+      {
+        "code": "BK0735",
+        "name": "计算机设备",
+        "change_pct": 2.91,
+        "turnover_cny": 17096427304.0,
+        "turnover_rate_pct": 1.72
+      },
+      {
+        "code": "BK1425",
+        "name": "胶黏剂及胶带",
+        "change_pct": 2.86,
+        "turnover_cny": 2552287064.0,
+        "turnover_rate_pct": 9.47
+      },
+      {
+        "code": "BK1396",
+        "name": "金属制品",
+        "change_pct": 2.86,
+        "turnover_cny": 20500755394.0,
+        "turnover_rate_pct": 4.21
+      },
+      {
+        "code": "BK1340",
+        "name": "印制电路板",
+        "change_pct": 2.85,
+        "turnover_cny": 68567595077.0,
+        "turnover_rate_pct": 5.47
+      },
+      {
+        "code": "BK1543",
+        "name": "娱乐用品",
+        "change_pct": 2.76,
+        "turnover_cny": 1798881409.0,
+        "turnover_rate_pct": 3.25
+      },
+      {
+        "code": "BK0454",
+        "name": "塑料",
+        "change_pct": 2.75,
+        "turnover_cny": 19385083496.0,
+        "turnover_rate_pct": 3.05
+      },
+      {
+        "code": "BK0448",
+        "name": "通信设备",
+        "change_pct": 2.72,
+        "turnover_cny": 91581654922.0,
+        "turnover_rate_pct": 3.18
+      },
+      {
+        "code": "BK1529",
+        "name": "汽车电子电气系统",
+        "change_pct": 2.71,
+        "turnover_cny": 8146626667.0,
+        "turnover_rate_pct": 2.01
+      },
+      {
+        "code": "BK1448",
+        "name": "横向通用软件",
+        "change_pct": 2.71,
+        "turnover_cny": 10889489460.0,
+        "turnover_rate_pct": 2.41
+      },
+      {
+        "code": "BK1443",
+        "name": "橡胶助剂",
+        "change_pct": 2.7,
+        "turnover_cny": 593089246.0,
+        "turnover_rate_pct": 2.15
+      },
+      {
+        "code": "BK1437",
+        "name": "改性塑料",
+        "change_pct": 2.69,
+        "turnover_cny": 2869012521.0,
+        "turnover_rate_pct": 2.39
+      },
+      {
+        "code": "BK0459",
+        "name": "元件",
+        "change_pct": 2.69,
+        "turnover_cny": 78541988792.0,
+        "turnover_rate_pct": 4.94
+      },
+      {
+        "code": "BK1207",
+        "name": "计算机",
+        "change_pct": 2.68,
+        "turnover_cny": 78740030600.0,
+        "turnover_rate_pct": 2.25
+      },
+      {
+        "code": "BK1327",
+        "name": "分立器件",
+        "change_pct": 2.67,
+        "turnover_cny": 11128278030.0,
+        "turnover_rate_pct": 2.32
+      },
+      {
+        "code": "BK1439",
+        "name": "膜材料",
+        "change_pct": 2.67,
+        "turnover_cny": 6616461523.0,
+        "turnover_rate_pct": 3.1
+      },
+      {
+        "code": "BK1409",
+        "name": "激光设备",
+        "change_pct": 2.65,
+        "turnover_cny": 7232772984.0,
+        "turnover_rate_pct": 3.54
+      },
+      {
+        "code": "BK1215",
+        "name": "通信",
+        "change_pct": 2.64,
+        "turnover_cny": 101911728558.0,
+        "turnover_rate_pct": 1.3
+      },
+      {
+        "code": "BK1266",
+        "name": "文娱用品",
+        "change_pct": 2.62,
+        "turnover_cny": 2376720038.0,
+        "turnover_rate_pct": 2.75
+      },
+      {
+        "code": "BK1444",
+        "name": "IT服务Ⅲ",
+        "change_pct": 2.62,
+        "turnover_cny": 29576733370.0,
+        "turnover_rate_pct": 2.53
+      },
+      {
+        "code": "BK1238",
+        "name": "IT服务Ⅱ",
+        "change_pct": 2.62,
+        "turnover_cny": 29576733370.0,
+        "turnover_rate_pct": 2.53
+      },
+      {
+        "code": "BK1400",
+        "name": "制冷空调设备",
+        "change_pct": 2.61,
+        "turnover_cny": 8611063328.0,
+        "turnover_rate_pct": 7.87
+      },
+      {
+        "code": "BK1240",
+        "name": "厨卫电器",
+        "change_pct": 2.59,
+        "turnover_cny": 897549025.0,
+        "turnover_rate_pct": 1.49
+      },
+      {
+        "code": "BK0737",
+        "name": "软件开发",
+        "change_pct": 2.58,
+        "turnover_cny": 32066869926.0,
+        "turnover_rate_pct": 2.27
+      },
+      {
+        "code": "BK1525",
+        "name": "车身附件及饰件",
+        "change_pct": 2.57,
+        "turnover_cny": 9023433009.0,
+        "turnover_rate_pct": 2.35
+      },
+      {
+        "code": "BK0481",
+        "name": "汽车零部件",
+        "change_pct": 2.56,
+        "turnover_cny": 54767190813.0,
+        "turnover_rate_pct": 2.39
+      },
+      {
+        "code": "BK1447",
+        "name": "垂直应用软件",
+        "change_pct": 2.54,
+        "turnover_cny": 21177380465.0,
+        "turnover_rate_pct": 2.2
+      },
+      {
+        "code": "BK1307",
+        "name": "电机Ⅲ",
+        "change_pct": 2.53,
+        "turnover_cny": 7473042781.0,
+        "turnover_rate_pct": 3.68
+      },
+      {
+        "code": "BK1030",
+        "name": "电机Ⅱ",
+        "change_pct": 2.53,
+        "turnover_cny": 7473042781.0,
+        "turnover_rate_pct": 3.68
+      },
+      {
+        "code": "BK1590",
+        "name": "其他通信设备",
+        "change_pct": 2.53,
+        "turnover_cny": 2362846441.0,
+        "turnover_rate_pct": 3.63
+      },
+      {
+        "code": "BK0545",
+        "name": "通用设备",
+        "change_pct": 2.52,
+        "turnover_cny": 60277956723.0,
+        "turnover_rate_pct": 3.65
+      },
+      {
+        "code": "BK1325",
+        "name": "半导体材料",
+        "change_pct": 2.51,
+        "turnover_cny": 23365889570.0,
+        "turnover_rate_pct": 4.6
+      },
+      {
+        "code": "BK1455",
+        "name": "家电零部件Ⅲ",
+        "change_pct": 2.5,
+        "turnover_cny": 8516562081.0,
+        "turnover_rate_pct": 3.0
+      },
+      {
+        "code": "BK1242",
+        "name": "家电零部件Ⅱ",
+        "change_pct": 2.5,
+        "turnover_cny": 8516562081.0,
+        "turnover_rate_pct": 3.0
+      },
+      {
+        "code": "BK0456",
+        "name": "家用电器",
+        "change_pct": 2.5,
+        "turnover_cny": 23235568977.0,
+        "turnover_rate_pct": 1.95
+      },
+      {
+        "code": "BK1438",
+        "name": "合成树脂",
+        "change_pct": 2.47,
+        "turnover_cny": 5997286691.0,
+        "turnover_rate_pct": 5.23
+      },
+      {
+        "code": "BK1392",
+        "name": "工程机械器件",
+        "change_pct": 2.46,
+        "turnover_cny": 1916504821.0,
+        "turnover_rate_pct": 1.73
+      },
+      {
+        "code": "BK1405",
+        "name": "其他专用设备",
+        "change_pct": 2.45,
+        "turnover_cny": 17360975049.0,
+        "turnover_rate_pct": 3.1
+      }
+    ]
+  },
+  "concept": {
+    "total": 531,
+    "top": [
+      {
+        "code": "BK1675",
+        "name": "历史新高",
+        "change_pct": 6.73,
+        "turnover_cny": 5369502212.0,
+        "turnover_rate_pct": 1.75
+      },
+      {
+        "code": "BK1766",
+        "name": "智能音箱",
+        "change_pct": 6.11,
+        "turnover_cny": 16907892632.0,
+        "turnover_rate_pct": 5.42
+      },
+      {
+        "code": "BK1051",
+        "name": "昨日连板_含一字",
+        "change_pct": 5.95,
+        "turnover_cny": 8284881130.0,
+        "turnover_rate_pct": 16.12
+      },
+      {
+        "code": "BK1645",
+        "name": "昨日打二板以上表现",
+        "change_pct": 5.72,
+        "turnover_cny": 5644310578.0,
+        "turnover_rate_pct": 30.02
+      },
+      {
+        "code": "BK1125",
+        "name": "电子后视镜",
+        "change_pct": 5.6,
+        "turnover_cny": 9718863201.0,
+        "turnover_rate_pct": 2.35
+      },
+      {
+        "code": "BK1151",
+        "name": "短剧互动游戏",
+        "change_pct": 5.48,
+        "turnover_cny": 51439640513.0,
+        "turnover_rate_pct": 6.68
+      },
+      {
+        "code": "BK0847",
+        "name": "影视概念",
+        "change_pct": 5.03,
+        "turnover_cny": 43684419970.0,
+        "turnover_rate_pct": 6.92
+      },
+      {
+        "code": "BK1141",
+        "name": "混合现实",
+        "change_pct": 4.97,
+        "turnover_cny": 34581323948.0,
+        "turnover_rate_pct": 2.79
+      },
+      {
+        "code": "BK1142",
+        "name": "裸眼3D",
+        "change_pct": 4.85,
+        "turnover_cny": 13073386347.0,
+        "turnover_rate_pct": 2.62
+      },
+      {
+        "code": "BK1050",
+        "name": "昨日涨停_含一字",
+        "change_pct": 4.84,
+        "turnover_cny": 53867938367.0,
+        "turnover_rate_pct": 19.74
+      },
+      {
+        "code": "BK0816",
+        "name": "昨日连板",
+        "change_pct": 4.78,
+        "turnover_cny": 8052813497.0,
+        "turnover_rate_pct": 22.5
+      },
+      {
+        "code": "BK0815",
+        "name": "昨日涨停",
+        "change_pct": 4.73,
+        "turnover_cny": 53309949215.0,
+        "turnover_rate_pct": 19.75
+      },
+      {
+        "code": "BK1717",
+        "name": "题材股",
+        "change_pct": 4.69,
+        "turnover_cny": 74452896136.0,
+        "turnover_rate_pct": 18.46
+      },
+      {
+        "code": "BK1761",
+        "name": "AI视频",
+        "change_pct": 4.6,
+        "turnover_cny": 39524715121.0,
+        "turnover_rate_pct": 8.4
+      },
+      {
+        "code": "BK0699",
+        "name": "全息技术",
+        "change_pct": 4.57,
+        "turnover_cny": 4979830163.0,
+        "turnover_rate_pct": 2.85
+      },
+      {
+        "code": "BK1178",
+        "name": "AI眼镜",
+        "change_pct": 4.55,
+        "turnover_cny": 95724224443.0,
+        "turnover_rate_pct": 2.65
+      },
+      {
+        "code": "BK1172",
+        "name": "AI语料",
+        "change_pct": 4.54,
+        "turnover_cny": 37973517981.0,
+        "turnover_rate_pct": 6.33
+      },
+      {
+        "code": "BK0972",
+        "name": "快手概念",
+        "change_pct": 4.52,
+        "turnover_cny": 22526265705.0,
+        "turnover_rate_pct": 6.32
+      },
+      {
+        "code": "BK1630",
+        "name": "昨日首板",
+        "change_pct": 4.5,
+        "turnover_cny": 36321977043.0,
+        "turnover_rate_pct": 18.35
+      },
+      {
+        "code": "BK1637",
+        "name": "东方财富热股",
+        "change_pct": 4.23,
+        "turnover_cny": 200009786031.0,
+        "turnover_rate_pct": 8.21
+      },
+      {
+        "code": "BK0959",
+        "name": "数字阅读",
+        "change_pct": 4.16,
+        "turnover_cny": 11165117738.0,
+        "turnover_rate_pct": 3.32
+      },
+      {
+        "code": "BK0509",
+        "name": "网络游戏",
+        "change_pct": 4.12,
+        "turnover_cny": 43209194229.0,
+        "turnover_rate_pct": 4.23
+      },
+      {
+        "code": "BK0641",
+        "name": "智能穿戴",
+        "change_pct": 4.03,
+        "turnover_cny": 98868641954.0,
+        "turnover_rate_pct": 2.51
+      },
+      {
+        "code": "BK0881",
+        "name": "3D玻璃",
+        "change_pct": 3.99,
+        "turnover_cny": 8973901908.0,
+        "turnover_rate_pct": 2.7
+      },
+      {
+        "code": "BK1049",
+        "name": "EDR概念",
+        "change_pct": 3.98,
+        "turnover_cny": 10591220081.0,
+        "turnover_rate_pct": 1.85
+      },
+      {
+        "code": "BK0722",
+        "name": "虚拟现实",
+        "change_pct": 3.98,
+        "turnover_cny": 119320176231.0,
+        "turnover_rate_pct": 3.3
+      },
+      {
+        "code": "BK0801",
+        "name": "增强现实",
+        "change_pct": 3.98,
+        "turnover_cny": 22496297639.0,
+        "turnover_rate_pct": 3.32
+      },
+      {
+        "code": "BK1638",
+        "name": "最近多板",
+        "change_pct": 3.96,
+        "turnover_cny": 94902016193.0,
+        "turnover_rate_pct": 6.17
+      },
+      {
+        "code": "BK1190",
+        "name": "虚拟机器人",
+        "change_pct": 3.95,
+        "turnover_cny": 14692748968.0,
+        "turnover_rate_pct": 2.65
+      },
+      {
+        "code": "BK0915",
+        "name": "WiFi",
+        "change_pct": 3.93,
+        "turnover_cny": 26684717078.0,
+        "turnover_rate_pct": 1.75
+      },
+      {
+        "code": "BK1002",
+        "name": "激光雷达",
+        "change_pct": 3.92,
+        "turnover_cny": 23999102520.0,
+        "turnover_rate_pct": 2.68
+      },
+      {
+        "code": "BK1055",
+        "name": "虚拟数字人",
+        "change_pct": 3.87,
+        "turnover_cny": 57584546323.0,
+        "turnover_rate_pct": 4.9
+      },
+      {
+        "code": "BK1111",
+        "name": "AIGC概念",
+        "change_pct": 3.86,
+        "turnover_cny": 90886834372.0,
+        "turnover_rate_pct": 5.21
+      },
+      {
+        "code": "BK0880",
+        "name": "UWB概念",
+        "change_pct": 3.85,
+        "turnover_cny": 12604292754.0,
+        "turnover_rate_pct": 2.15
+      },
+      {
+        "code": "BK0666",
+        "name": "苹果概念",
+        "change_pct": 3.83,
+        "turnover_cny": 88178435840.0,
+        "turnover_rate_pct": 2.04
+      },
+      {
+        "code": "BK0893",
+        "name": "无线耳机",
+        "change_pct": 3.79,
+        "turnover_cny": 69691683204.0,
+        "turnover_rate_pct": 3.17
+      },
+      {
+        "code": "BK1009",
+        "name": "元宇宙概念",
+        "change_pct": 3.78,
+        "turnover_cny": 87825416704.0,
+        "turnover_rate_pct": 4.04
+      },
+      {
+        "code": "BK0865",
+        "name": "电子烟",
+        "change_pct": 3.76,
+        "turnover_cny": 26488383986.0,
+        "turnover_rate_pct": 3.56
+      },
+      {
+        "code": "BK0923",
+        "name": "抖音概念(字节概念)",
+        "change_pct": 3.73,
+        "turnover_cny": 78597297578.0,
+        "turnover_rate_pct": 4.71
+      },
+      {
+        "code": "BK1646",
+        "name": "消费电子概念",
+        "change_pct": 3.72,
+        "turnover_cny": 146425832938.0,
+        "turnover_rate_pct": 2.58
+      },
+      {
+        "code": "BK1184",
+        "name": "人形机器人",
+        "change_pct": 3.7,
+        "turnover_cny": 179245235758.0,
+        "turnover_rate_pct": 2.95
+      },
+      {
+        "code": "BK1632",
+        "name": "昨日高换手",
+        "change_pct": 3.68,
+        "turnover_cny": 89320569150.0,
+        "turnover_rate_pct": 14.56
+      },
+      {
+        "code": "BK1169",
+        "name": "Kimi概念",
+        "change_pct": 3.66,
+        "turnover_cny": 16240594150.0,
+        "turnover_rate_pct": 4.39
+      },
+      {
+        "code": "BK1131",
+        "name": "同步磁阻电机",
+        "change_pct": 3.65,
+        "turnover_cny": 2329850522.0,
+        "turnover_rate_pct": 2.24
+      },
+      {
+        "code": "BK1160",
+        "name": "柔性屏(折叠屏)",
+        "change_pct": 3.65,
+        "turnover_cny": 51600869925.0,
+        "turnover_rate_pct": 2.5
+      },
+      {
+        "code": "BK1183",
+        "name": "谷子经济",
+        "change_pct": 3.63,
+        "turnover_cny": 43994554974.0,
+        "turnover_rate_pct": 5.63
+      },
+      {
+        "code": "BK0954",
+        "name": "盲盒经济",
+        "change_pct": 3.62,
+        "turnover_cny": 12807549016.0,
+        "turnover_rate_pct": 8.63
+      },
+      {
+        "code": "BK1110",
+        "name": "Web3.0",
+        "change_pct": 3.62,
+        "turnover_cny": 26092157664.0,
+        "turnover_rate_pct": 5.98
+      },
+      {
+        "code": "BK1654",
+        "name": "文娱消费",
+        "change_pct": 3.61,
+        "turnover_cny": 63588622640.0,
+        "turnover_rate_pct": 5.69
+      },
+      {
+        "code": "BK0859",
+        "name": "超清视频",
+        "change_pct": 3.61,
+        "turnover_cny": 59700560996.0,
+        "turnover_rate_pct": 2.32
+      },
+      {
+        "code": "BK0839",
+        "name": "知识产权",
+        "change_pct": 3.58,
+        "turnover_cny": 28248035748.0,
+        "turnover_rate_pct": 7.91
+      },
+      {
+        "code": "BK1651",
+        "name": "显示技术",
+        "change_pct": 3.58,
+        "turnover_cny": 16402561469.0,
+        "turnover_rate_pct": 1.93
+      },
+      {
+        "code": "BK0901",
+        "name": "3D摄像头",
+        "change_pct": 3.58,
+        "turnover_cny": 9946879169.0,
+        "turnover_rate_pct": 1.98
+      },
+      {
+        "code": "BK1074",
+        "name": "托育服务",
+        "change_pct": 3.53,
+        "turnover_cny": 600940505.0,
+        "turnover_rate_pct": 3.03
+      },
+      {
+        "code": "BK1143",
+        "name": "空间计算",
+        "change_pct": 3.52,
+        "turnover_cny": 15593464751.0,
+        "turnover_rate_pct": 4.91
+      },
+      {
+        "code": "BK1129",
+        "name": "数字水印",
+        "change_pct": 3.52,
+        "turnover_cny": 9481116316.0,
+        "turnover_rate_pct": 3.77
+      },
+      {
+        "code": "BK0998",
+        "name": "机器视觉",
+        "change_pct": 3.52,
+        "turnover_cny": 33341941337.0,
+        "turnover_rate_pct": 2.74
+      },
+      {
+        "code": "BK1162",
+        "name": "AI手机",
+        "change_pct": 3.46,
+        "turnover_cny": 17975341073.0,
+        "turnover_rate_pct": 2.05
+      },
+      {
+        "code": "BK0957",
+        "name": "拼多多概念",
+        "change_pct": 3.45,
+        "turnover_cny": 6506056204.0,
+        "turnover_rate_pct": 3.16
+      },
+      {
+        "code": "BK1099",
+        "name": "轮毂电机",
+        "change_pct": 3.45,
+        "turnover_cny": 1167216620.0,
+        "turnover_rate_pct": 2.09
+      },
+      {
+        "code": "BK1100",
+        "name": "减速器",
+        "change_pct": 3.4,
+        "turnover_cny": 38152477002.0,
+        "turnover_rate_pct": 3.21
+      },
+      {
+        "code": "BK1182",
+        "name": "智谱AI概念",
+        "change_pct": 3.35,
+        "turnover_cny": 18087256563.0,
+        "turnover_rate_pct": 4.93
+      },
+      {
+        "code": "BK1161",
+        "name": "英伟达概念",
+        "change_pct": 3.32,
+        "turnover_cny": 54842624493.0,
+        "turnover_rate_pct": 2.56
+      },
+      {
+        "code": "BK1164",
+        "name": "AIPC",
+        "change_pct": 3.32,
+        "turnover_cny": 42047649375.0,
+        "turnover_rate_pct": 1.83
+      },
+      {
+        "code": "BK1126",
+        "name": "ChatGPT概念",
+        "change_pct": 3.3,
+        "turnover_cny": 47303619591.0,
+        "turnover_rate_pct": 5.04
+      },
+      {
+        "code": "BK0970",
+        "name": "生物识别",
+        "change_pct": 3.3,
+        "turnover_cny": 19881999204.0,
+        "turnover_rate_pct": 1.96
+      },
+      {
+        "code": "BK0960",
+        "name": "无线充电",
+        "change_pct": 3.28,
+        "turnover_cny": 24877767080.0,
+        "turnover_rate_pct": 2.25
+      },
+      {
+        "code": "BK1145",
+        "name": "机器人执行器",
+        "change_pct": 3.28,
+        "turnover_cny": 28226109440.0,
+        "turnover_rate_pct": 4.03
+      },
+      {
+        "code": "BK0833",
+        "name": "小米概念",
+        "change_pct": 3.27,
+        "turnover_cny": 124548654005.0,
+        "turnover_rate_pct": 2.59
+      },
+      {
+        "code": "BK0861",
+        "name": "数字孪生",
+        "change_pct": 3.27,
+        "turnover_cny": 24986628767.0,
+        "turnover_rate_pct": 1.7
+      },
+      {
+        "code": "BK0947",
+        "name": "屏下摄像",
+        "change_pct": 3.23,
+        "turnover_cny": 5687171532.0,
+        "turnover_rate_pct": 1.44
+      },
+      {
+        "code": "BK1132",
+        "name": "MLOps概念",
+        "change_pct": 3.23,
+        "turnover_cny": 3776582646.0,
+        "turnover_rate_pct": 3.49
+      },
+      {
+        "code": "BK0853",
+        "name": "电子竞技",
+        "change_pct": 3.22,
+        "turnover_cny": 19828749597.0,
+        "turnover_rate_pct": 2.19
+      },
+      {
+        "code": "BK0905",
+        "name": "传感器",
+        "change_pct": 3.2,
+        "turnover_cny": 65124031803.0,
+        "turnover_rate_pct": 3.2
+      },
+      {
+        "code": "BK1127",
+        "name": "AI芯片",
+        "change_pct": 3.19,
+        "turnover_cny": 38994994320.0,
+        "turnover_rate_pct": 1.77
+      },
+      {
+        "code": "BK0969",
+        "name": "汽车芯片",
+        "change_pct": 3.19,
+        "turnover_cny": 50082312817.0,
+        "turnover_rate_pct": 2.0
+      },
+      {
+        "code": "BK1631",
+        "name": "昨日炸板",
+        "change_pct": 3.18,
+        "turnover_cny": 48048603026.0,
+        "turnover_rate_pct": 27.84
+      },
+      {
+        "code": "BK0982",
+        "name": "电子车牌",
+        "change_pct": 3.16,
+        "turnover_cny": 2991690048.0,
+        "turnover_rate_pct": 2.88
+      },
+      {
+        "code": "BK1118",
+        "name": "数据确权",
+        "change_pct": 3.15,
+        "turnover_cny": 15134995335.0,
+        "turnover_rate_pct": 4.68
+      },
+      {
+        "code": "BK1676",
+        "name": "百日新高",
+        "change_pct": 3.13,
+        "turnover_cny": 61084398190.0,
+        "turnover_rate_pct": 4.33
+      },
+      {
+        "code": "BK1119",
+        "name": "PLC概念",
+        "change_pct": 3.1,
+        "turnover_cny": 6425052736.0,
+        "turnover_rate_pct": 1.73
+      },
+      {
+        "code": "BK1168",
+        "name": "铜缆高速连接",
+        "change_pct": 3.08,
+        "turnover_cny": 26844503309.0,
+        "turnover_rate_pct": 2.55
+      },
+      {
+        "code": "BK1007",
+        "name": "植物照明",
+        "change_pct": 3.07,
+        "turnover_cny": 3148397030.0,
+        "turnover_rate_pct": 2.06
+      },
+      {
+        "code": "BK0662",
+        "name": "在线教育",
+        "change_pct": 3.07,
+        "turnover_cny": 51419876378.0,
+        "turnover_rate_pct": 3.91
+      },
+      {
+        "code": "BK0845",
+        "name": "百度概念",
+        "change_pct": 3.07,
+        "turnover_cny": 76442420527.0,
+        "turnover_rate_pct": 2.85
+      },
+      {
+        "code": "BK1175",
+        "name": "玻璃基板",
+        "change_pct": 3.06,
+        "turnover_cny": 39000380767.0,
+        "turnover_rate_pct": 2.28
+      },
+      {
+        "code": "BK1189",
+        "name": "腾讯云",
+        "change_pct": 3.05,
+        "turnover_cny": 16207235616.0,
+        "turnover_rate_pct": 2.11
+      },
+      {
+        "code": "BK1177",
+        "name": "荣耀概念",
+        "change_pct": 3.05,
+        "turnover_cny": 35091805669.0,
+        "turnover_rate_pct": 2.39
+      },
+      {
+        "code": "BK1153",
+        "name": "多模态AI",
+        "change_pct": 3.03,
+        "turnover_cny": 53452248966.0,
+        "turnover_rate_pct": 3.8
+      },
+      {
+        "code": "BK0921",
+        "name": "卫星互联网",
+        "change_pct": 3.03,
+        "turnover_cny": 62348255134.0,
+        "turnover_rate_pct": 1.71
+      },
+      {
+        "code": "BK1150",
+        "name": "新型工业化",
+        "change_pct": 3.03,
+        "turnover_cny": 38374736049.0,
+        "turnover_rate_pct": 1.74
+      },
+      {
+        "code": "BK0902",
+        "name": "MiniLED",
+        "change_pct": 3.02,
+        "turnover_cny": 39691698762.0,
+        "turnover_rate_pct": 2.09
+      },
+      {
+        "code": "BK1716",
+        "name": "反转股",
+        "change_pct": 3.01,
+        "turnover_cny": 11128439810.0,
+        "turnover_rate_pct": 2.67
+      },
+      {
+        "code": "BK1633",
+        "name": "昨日高振幅",
+        "change_pct": 2.99,
+        "turnover_cny": 281367594788.0,
+        "turnover_rate_pct": 5.72
+      },
+      {
+        "code": "BK1088",
+        "name": "F5G概念",
+        "change_pct": 2.98,
+        "turnover_cny": 41631224107.0,
+        "turnover_rate_pct": 1.56
+      },
+      {
+        "code": "BK0817",
+        "name": "昨日触板",
+        "change_pct": 2.95,
+        "turnover_cny": 54097068533.0,
+        "turnover_rate_pct": 22.33
+      },
+      {
+        "code": "BK0920",
+        "name": "车联网(车路云)",
+        "change_pct": 2.93,
+        "turnover_cny": 70354788278.0,
+        "turnover_rate_pct": 1.56
+      },
+      {
+        "code": "BK1090",
+        "name": "机器人概念",
+        "change_pct": 2.92,
+        "turnover_cny": 302140023243.0,
+        "turnover_rate_pct": 2.04
+      },
+      {
+        "code": "BK0535",
+        "name": "QFII重仓",
+        "change_pct": 2.91,
+        "turnover_cny": 213682617875.0,
+        "turnover_rate_pct": 4.13
+      },
+      {
+        "code": "BK0840",
+        "name": "OLED",
+        "change_pct": 2.9,
+        "turnover_cny": 55441131256.0,
+        "turnover_rate_pct": 1.94
+      }
+    ]
+  },
+  "watchlist": [
+    {
+      "code": "300364",
+      "name": "中文在线",
+      "price": 29.05,
+      "change_pct": 8.07,
+      "high": 29.83,
+      "low": 26.53,
+      "turnover_cny": 4644320611.78
+    },
+    {
+      "code": "603533",
+      "name": "掌阅科技",
+      "price": 32.8,
+      "change_pct": 9.99,
+      "high": 32.8,
+      "low": 29.83,
+      "turnover_cny": 2043609659.0
+    }
+  ]
+}
