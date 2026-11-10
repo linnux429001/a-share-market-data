@@ -13,7 +13,7 @@ export function isTradingMinute(ms) {
   // Fail closed until the next annual exchange calendar is verified.
   return local.getUTCFullYear() === 2026 && day >= 1 && day <= 5
     && !holidays2026.some(([first, last]) => date >= first && date <= last)
-    && ((minute >= 570 && minute < 690) || (minute >= 780 && minute < 900));
+    && (minute === 565 || (minute >= 570 && minute < 690) || (minute >= 780 && minute < 900));
 }
 
 async function get(path, params) {
@@ -60,6 +60,49 @@ async function stock(secid) {
   };
 }
 
+const githubFile = "https://api.github.com/repos/linnux429001/a-share-market-data/contents/data/latest.json";
+
+function marketFields(snapshot) {
+  // Ignore collection metadata and object key order.
+  const stable = (key, value) => value && typeof value === "object" && !Array.isArray(value)
+    ? Object.fromEntries(Object.keys(value).sort().map((name) => [name, value[name]]))
+    : value;
+  return JSON.stringify([snapshot.industry, snapshot.concept, snapshot.watchlist], stable);
+}
+
+async function syncGitHub(snapshot, serialized, token) {
+  if (!token) throw new Error("GitHub sync secret missing");
+  const headers = {
+    Authorization: "Bearer " + token,
+    Accept: "application/vnd.github+json",
+    "User-Agent": "a-share-market-data-worker",
+  };
+  const current = await fetch(githubFile + "?ref=main", {
+    headers, redirect: "error", signal: AbortSignal.timeout(12000),
+  });
+  if (!current.ok) throw new Error("GitHub read HTTP " + current.status);
+  const { sha, content, encoding } = await current.json();
+  if (!sha || !content || encoding !== "base64") throw new Error("Invalid GitHub file response");
+  const oldBytes = Uint8Array.from(atob(content), (byte) => byte.charCodeAt(0));
+  const old = JSON.parse(new TextDecoder().decode(oldBytes));
+  if (Date.parse(old.collected_at) >= Date.parse(snapshot.collected_at)
+      || marketFields(old) === marketFields(snapshot)) return;
+  const bytes = new TextEncoder().encode(serialized);
+  let binary = "";
+  for (let offset = 0; offset < bytes.length; offset += 8192) {
+    binary += String.fromCharCode(...bytes.subarray(offset, offset + 8192));
+  }
+  const update = await fetch(githubFile, {
+    method: "PUT", headers: { ...headers, "Content-Type": "application/json" },
+    redirect: "error", signal: AbortSignal.timeout(12000),
+    body: JSON.stringify({
+      message: "Update market snapshot [skip ci]", branch: "main", sha, content: btoa(binary),
+    }),
+  });
+  if (!update.ok) throw new Error("GitHub write HTTP " + update.status);
+  console.log("GitHub snapshot synced", snapshot.collected_at);
+}
+
 const responseHeaders = { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" };
 
 export default {
@@ -78,7 +121,14 @@ export default {
         note: "Collection time is not a verified exchange quote time.",
         industry, concept, watchlist,
       };
-      await env.MARKET.put("latest", JSON.stringify(snapshot));
+      const serialized = JSON.stringify(snapshot);
+      await env.MARKET.put("latest", serialized);
+      try {
+        await syncGitHub(snapshot, serialized, env.GITHUB_SYNC_TOKEN);
+      } catch (error) {
+        const status = /^GitHub (read|write) HTTP \d+$/.test(error.message) ? error.message : "GitHub sync unavailable";
+        console.error(status, snapshot.collected_at);
+      }
       console.log("Snapshot saved", snapshot.scheduled_at, industry.top.length, concept.top.length, watchlist.length);
     } catch (error) {
       console.error("Collection failed", error.message);
@@ -104,3 +154,4 @@ export default {
     }
   },
 };
+
