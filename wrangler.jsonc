@@ -1,0 +1,10 @@
+{
+  "name": "a-share-market-data",
+  "main": "market-worker.mjs",
+  "compatibility_date": "2026-11-10",
+  "workers_dev": true,
+  "preview_urls": false,
+  "triggers": { "crons": ["* * * * MON-FRI"] },
+  "kv_namespaces": [{ "binding": "MARKET" }],
+  "observability": { "enabled": true }
+}
