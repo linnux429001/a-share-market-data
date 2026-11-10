@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-11",
+  "note": "Public research lists only; no private positions or cost basis. Verify all unconfirmed symbols before use.",
+  "pools": {
+    "research": {
+      "status": "incomplete",
+      "expected_count": 88,
+      "codes": []
+    },
+    "short_term_high_beta": {
+      "status": "confirmed_codes",
+      "codes": [
+        "688813",
+        "920576",
+        "920207",
+        "920592"
+      ]
+    },
+    "temporary_hot": {
+      "codes": []
+    }
+  },
+  "categories": {},
+  "positions_storage": "private_not_in_public_repo"
+}
