@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T00:20:41.219538+08:00",
+  "collected_at": "2026-11-11T00:22:26.927659+08:00",
   "timezone": "Asia/Shanghai",
   "source": "Eastmoney public web API (unofficial)",
   "market_data_timestamp": null,
@@ -320,7 +320,7 @@
         "name": "电子",
         "change_pct": 3.29,
         "turnover_cny": 366822115854.0,
-        "turnover_rate_pct": 2.73
+        "turnover_rate_pct": 2.72
       },
       {
         "code": "BK1452",
@@ -432,7 +432,7 @@
         "name": "半导体",
         "change_pct": 2.97,
         "turnover_cny": 180029454289.0,
-        "turnover_rate_pct": 2.96
+        "turnover_rate_pct": 2.92
       },
       {
         "code": "BK1599",
@@ -474,7 +474,7 @@
         "name": "印制电路板",
         "change_pct": 2.85,
         "turnover_cny": 68567595077.0,
-        "turnover_rate_pct": 5.47
+        "turnover_rate_pct": 5.46
       },
       {
         "code": "BK1543",
