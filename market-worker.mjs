@@ -107,7 +107,14 @@ const responseHeaders = { "content-type": "application/json; charset=utf-8", "ca
 
 export default {
   async scheduled(event, env) {
-    if (!isTradingMinute(event.scheduledTime) || !isTradingMinute(Date.now())) return;
+    const normalSession = isTradingMinute(event.scheduledTime) && isTradingMinute(Date.now());
+    const testStart = Date.parse("2026-11-10T23:51:00+08:00");
+    const testEnd = Date.parse("2026-11-11T00:10:00+08:00");
+    if (!normalSession) {
+      if (event.scheduledTime < testStart || Date.now() >= testEnd
+          || await env.MARKET.get("after-hours-test-20261110")) return;
+      await env.MARKET.put("after-hours-test-20261110", "attempted", { expirationTtl: 3600 });
+    }
     try {
       const [industry, concept, ...watchlist] = await Promise.all([
         board(2), board(3), stock("0.300364"), stock("1.603533"),
@@ -115,6 +122,7 @@ export default {
       const snapshot = {
         collected_at: new Date().toISOString(),
         scheduled_at: new Date(event.scheduledTime).toISOString(),
+        ...(!normalSession ? { collection_mode: "after_hours_test" } : {}),
         timezone: "Asia/Shanghai",
         source: "Eastmoney public web API (unofficial)",
         market_data_timestamp: null,
