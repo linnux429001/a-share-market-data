@@ -1,6 +1,13 @@
 name: Collect A-share market snapshot
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'collect.py'
+      - 'analyze.py'
+      - 'config/watchlist.json'
+      - '.github/workflows/collect.yml'
   schedule:
     # UTC. Beijing time: 09:25–11:30 and 13:00–15:00, every five minutes.
     - cron: '25-55/5 1 * * 1-5'
