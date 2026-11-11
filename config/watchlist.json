@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "note": "Public research list only. Partial reconstruction from prior user-confirmed names; verify remaining members. No private positions or cost basis.",
   "pools": {
     "research": {
@@ -94,10 +94,9 @@
         "688813",
         "920576",
         "920207",
-        "920592",
-        "688827"
+        "920592"
       ],
-      "note": "688827 is priority quote tracking; verify current listing/name with exchange data."
+      "note": "Historical routine checks only; no automatic recommendation priority. Excluded codes must not be re-added."
     },
     "temporary_hot": {
       "codes": []
@@ -217,5 +216,10 @@
       "301583"
     ]
   },
-  "positions_storage": "private_not_in_public_repo"
+  "positions_storage": "private_not_in_public_repo",
+  "excluded_codes": [
+    "688809",
+    "688827"
+  ],
+  "exclusion_policy": "Exclude from active recommendations and candidates; preserve research/history. Runtime enforcement not verified while development paused."
 }
