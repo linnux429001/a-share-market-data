@@ -95,7 +95,7 @@ def config_codes():
 
 def main():
     industry, concept = boards(2), boards(3)
-    stock_total, raw = list_all(STOCK_FILTERS)
+    stock_total, raw = list_all(STOCK_FILTERS, page_size=500)
     stocks = [stock_row(x) for x in raw]
     lookup = {x["code"]: x for x in stocks}
     selected = {}
