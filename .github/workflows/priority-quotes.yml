@@ -32,13 +32,26 @@ jobs:
           python-version: '3.11'
       - name: Collect priority quotes
         run: python priority_quotes.py
+      - name: Validate quote coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d = json.loads(Path('data/priority_quotes.json').read_text())
+          assert d['count'] >= int(d['expected'] * 0.90), f"Coverage below 90%: {d['count']}/{d['expected']}"
+          assert all(code in d['quotes'] for code in ('688766', '688827', '300364')), 'Core quotes missing'
+          print('Quote coverage and core stocks verified')
+          PY
       - name: Commit quotes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/priority_quotes.json
+          git add data/priority_quotes.json data/priority_history.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update priority quotes'
-            git pull --rebase origin main
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
+              sleep $((attempt * 2))
+            done
           fi
