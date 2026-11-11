@@ -106,7 +106,7 @@ def main():
                                for code, q in quotes.items()}})
     history = history[-120:]
     history_path.write_text(json.dumps({"snapshots": history},
-                            ensure_ascii=False, separators=(",", ":")) + "\\n", encoding="utf-8")
+                            ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"Priority quotes: {len(quotes)}/{len(codes)}; fallback={fallback_codes}; 688827={quotes.get('688827')}")
 
 if __name__ == "__main__":
