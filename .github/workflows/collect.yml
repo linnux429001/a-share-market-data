@@ -6,6 +6,7 @@ on:
     paths:
       - 'collect.py'
       - 'analyze.py'
+      - 'board_signals.py'
       - 'config/watchlist.json'
       - '.github/workflows/collect.yml'
   schedule:
@@ -47,6 +48,7 @@ jobs:
           fi
           python collect.py
           python analyze.py
+          python board_signals.py
           python - <<'PY'
           import json
           from pathlib import Path
@@ -67,7 +69,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/latest.json data/watchlist_analysis.json
+          git add data/latest.json data/watchlist_analysis.json data/board_history.json data/board_signals.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update market snapshot'
             git push
