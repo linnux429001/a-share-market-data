@@ -94,8 +94,10 @@
         "688813",
         "920576",
         "920207",
-        "920592"
-      ]
+        "920592",
+        "688827"
+      ],
+      "note": "688827 is priority quote tracking; verify current listing/name with exchange data."
     },
     "temporary_hot": {
       "codes": []
