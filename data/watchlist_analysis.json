@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T12:45:16.544810+08:00",
+  "collected_at": "2026-11-11T12:55:01.652334+08:00",
   "market_data_timestamp": null,
   "data_quality": "single_snapshot_no_verified_quote_time",
   "pools": {
@@ -1024,7 +1024,7 @@
       "missing": []
     },
     "short_term_high_beta": {
-      "expected": 4,
+      "expected": 5,
       "found": [
         {
           "code": "688813",
@@ -1038,6 +1038,19 @@
           "low": 82.11,
           "open": 83.11,
           "previous_close": 82.85
+        },
+        {
+          "code": "688827",
+          "name": "C钶锐",
+          "price": 113.3,
+          "change_pct": -12.31,
+          "volume": 50863,
+          "turnover_cny": 579683312.0,
+          "turnover_rate_pct": 39.5,
+          "high": 123.0,
+          "low": 108.8,
+          "open": 120.0,
+          "previous_close": 129.2
         },
         {
           "code": "920207",
