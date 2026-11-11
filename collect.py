@@ -33,7 +33,7 @@ def get(path, params):
 def list_all(fs, fields=FIELDS, page_size=100):
     rows, seen = [], set()
     total = None
-    for page in range(1, 101):
+    for page in range(1, 301):
         d = get("clist/get", {"pn": page, "pz": page_size, "po": 1, "np": 1,
                               "fltt": 2, "invt": 2, "fid": "f3", "fs": fs, "fields": fields})
         if total is None:
