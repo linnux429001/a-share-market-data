@@ -1,0 +1,11 @@
+{
+  "collected_at": "2026-11-18T16:16:19.762475+08:00",
+  "previous_snapshot_at": null,
+  "source": "Eastmoney public web API (unofficial)",
+  "market_data_timestamp": null,
+  "data_quality": "unverified_quote_time",
+  "signal_scope": "board_acceleration_only",
+  "alert_count": 0,
+  "alerts": [],
+  "note": "Threshold-based observation, not a buy signal. Verify timestamps, news and constituent stocks independently. No alert does not prove no opportunity."
+}
