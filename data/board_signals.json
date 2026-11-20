@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-11-20T11:52:47.091432+08:00",
-  "previous_snapshot_at": null,
+  "collected_at": "2026-11-20T16:21:40.005110+08:00",
+  "previous_snapshot_at": "2026-11-20T11:52:47.091432+08:00",
   "source": "Eastmoney public web API (unofficial)",
   "market_data_timestamp": null,
   "data_quality": "unverified_quote_time",
