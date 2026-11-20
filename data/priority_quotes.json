@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-20T11:38:29.324447+08:00",
+  "collected_at": "2026-11-20T11:39:39.135566+08:00",
   "market_data_timestamp": null,
   "source": "Eastmoney unofficial stock/get",
   "note": "Collection time is not exchange quote time; may be delayed.",
@@ -9,39 +9,6 @@
   "data_quality": "unverified_exchange_timestamp",
   "missing": [],
   "quotes": {
-    "001270": {
-      "code": "001270",
-      "name": "铖昌科技",
-      "price": 67.85,
-      "change_pct": -4.02,
-      "high": 69.61,
-      "low": 67.18,
-      "open": 68.82,
-      "previous_close": 70.69,
-      "turnover_cny": 206447301.76
-    },
-    "002149": {
-      "code": "002149",
-      "name": "西部材料",
-      "price": 27.52,
-      "change_pct": -4.04,
-      "high": 27.9,
-      "low": 26.95,
-      "open": 27.69,
-      "previous_close": 28.68,
-      "turnover_cny": 489081444.7
-    },
-    "002050": {
-      "code": "002050",
-      "name": "三花智控",
-      "price": 32.05,
-      "change_pct": -1.51,
-      "high": 32.45,
-      "low": 31.41,
-      "open": 31.9,
-      "previous_close": 32.54,
-      "turnover_cny": 955028755.16
-    },
     "000807": {
       "code": "000807",
       "name": "云铝股份",
@@ -64,6 +31,39 @@
       "previous_close": 8.85,
       "turnover_cny": 103538717.4
     },
+    "002050": {
+      "code": "002050",
+      "name": "三花智控",
+      "price": 32.05,
+      "change_pct": -1.51,
+      "high": 32.45,
+      "low": 31.41,
+      "open": 31.9,
+      "previous_close": 32.54,
+      "turnover_cny": 955028755.16
+    },
+    "001270": {
+      "code": "001270",
+      "name": "铖昌科技",
+      "price": 67.85,
+      "change_pct": -4.02,
+      "high": 69.61,
+      "low": 67.18,
+      "open": 68.82,
+      "previous_close": 70.69,
+      "turnover_cny": 206447301.76
+    },
+    "002149": {
+      "code": "002149",
+      "name": "西部材料",
+      "price": 27.52,
+      "change_pct": -4.04,
+      "high": 27.9,
+      "low": 26.95,
+      "open": 27.69,
+      "previous_close": 28.68,
+      "turnover_cny": 489081444.7
+    },
     "002371": {
       "code": "002371",
       "name": "北方华创",
@@ -75,16 +75,16 @@
       "previous_close": 592.02,
       "turnover_cny": 3733046962.7
     },
-    "002472": {
-      "code": "002472",
-      "name": "双环传动",
-      "price": 36.63,
-      "change_pct": -0.7,
-      "high": 36.94,
-      "low": 35.37,
-      "open": 36.21,
-      "previous_close": 36.89,
-      "turnover_cny": 467850497.71
+    "002466": {
+      "code": "002466",
+      "name": "天齐锂业",
+      "price": 32.03,
+      "change_pct": -2.82,
+      "high": 32.69,
+      "low": 31.71,
+      "open": 32.5,
+      "previous_close": 32.96,
+      "turnover_cny": 402399795.85
     },
     "002422": {
       "code": "002422",
@@ -108,38 +108,27 @@
       "previous_close": 34.2,
       "turnover_cny": 496470647.72
     },
-    "002466": {
-      "code": "002466",
-      "name": "天齐锂业",
-      "price": 32.03,
-      "change_pct": -2.82,
-      "high": 32.69,
-      "low": 31.71,
-      "open": 32.5,
-      "previous_close": 32.96,
-      "turnover_cny": 402399795.85
+    "002472": {
+      "code": "002472",
+      "name": "双环传动",
+      "price": 36.63,
+      "change_pct": -0.7,
+      "high": 36.94,
+      "low": 35.37,
+      "open": 36.21,
+      "previous_close": 36.89,
+      "turnover_cny": 467850497.71
     },
-    "002747": {
-      "code": "002747",
-      "name": "埃斯顿",
-      "price": 25.24,
-      "change_pct": 0.68,
-      "high": 25.5,
-      "low": 24.11,
-      "open": 24.52,
-      "previous_close": 25.07,
-      "turnover_cny": 618995159.14
-    },
-    "002709": {
-      "code": "002709",
-      "name": "天赐材料",
-      "price": 24.25,
-      "change_pct": -3.19,
-      "high": 24.89,
-      "low": 24.06,
-      "open": 24.6,
-      "previous_close": 25.05,
-      "turnover_cny": 424586771.06
+    "002979": {
+      "code": "002979",
+      "name": "雷赛智能",
+      "price": 43.42,
+      "change_pct": -2.21,
+      "high": 44.01,
+      "low": 42.5,
+      "open": 43.07,
+      "previous_close": 44.4,
+      "turnover_cny": 351819036.0
     },
     "300009": {
       "code": "300009",
@@ -152,16 +141,27 @@
       "previous_close": 7.47,
       "turnover_cny": 66186909.12
     },
-    "002979": {
-      "code": "002979",
-      "name": "雷赛智能",
-      "price": 43.42,
-      "change_pct": -2.21,
-      "high": 44.01,
-      "low": 42.5,
-      "open": 43.07,
-      "previous_close": 44.4,
-      "turnover_cny": 351819036.0
+    "002709": {
+      "code": "002709",
+      "name": "天赐材料",
+      "price": 24.25,
+      "change_pct": -3.19,
+      "high": 24.89,
+      "low": 24.06,
+      "open": 24.6,
+      "previous_close": 25.05,
+      "turnover_cny": 424586771.06
+    },
+    "002747": {
+      "code": "002747",
+      "name": "埃斯顿",
+      "price": 25.24,
+      "change_pct": 0.68,
+      "high": 25.5,
+      "low": 24.11,
+      "open": 24.52,
+      "previous_close": 25.07,
+      "turnover_cny": 618995159.14
     },
     "002812": {
       "code": "002812",
@@ -240,16 +240,16 @@
       "previous_close": 7.86,
       "turnover_cny": 736311413.52
     },
-    "300142": {
-      "code": "300142",
-      "name": "沃森生物",
-      "price": 10.29,
-      "change_pct": -3.29,
-      "high": 10.53,
-      "low": 10.17,
-      "open": 10.47,
-      "previous_close": 10.64,
-      "turnover_cny": 205031714.64
+    "300223": {
+      "code": "300223",
+      "name": "君正股份",
+      "price": 89.83,
+      "change_pct": -4.1,
+      "high": 91.23,
+      "low": 88.27,
+      "open": 89.98,
+      "previous_close": 93.67,
+      "turnover_cny": 1530689364.38
     },
     "300182": {
       "code": "300182",
@@ -262,17 +262,6 @@
       "previous_close": 4.78,
       "turnover_cny": 663842775.44
     },
-    "300223": {
-      "code": "300223",
-      "name": "君正股份",
-      "price": 89.83,
-      "change_pct": -4.1,
-      "high": 91.23,
-      "low": 88.27,
-      "open": 89.98,
-      "previous_close": 93.67,
-      "turnover_cny": 1530689364.38
-    },
     "300253": {
       "code": "300253",
       "name": "卫宁健康",
@@ -283,6 +272,17 @@
       "open": 6.28,
       "previous_close": 6.35,
       "turnover_cny": 167080696.93
+    },
+    "300142": {
+      "code": "300142",
+      "name": "沃森生物",
+      "price": 10.29,
+      "change_pct": -3.29,
+      "high": 10.53,
+      "low": 10.17,
+      "open": 10.47,
+      "previous_close": 10.64,
+      "turnover_cny": 205031714.64
     },
     "300274": {
       "code": "300274",
@@ -295,16 +295,16 @@
       "previous_close": 71.43,
       "turnover_cny": 1481624287.86
     },
-    "300364": {
-      "code": "300364",
-      "name": "中文在线",
-      "price": 22.88,
-      "change_pct": 2.97,
-      "high": 22.96,
-      "low": 21.2,
-      "open": 21.88,
-      "previous_close": 22.22,
-      "turnover_cny": 1264235360.31
+    "300413": {
+      "code": "300413",
+      "name": "芒果超媒",
+      "price": 28.2,
+      "change_pct": 7.18,
+      "high": 28.35,
+      "low": 25.36,
+      "open": 25.69,
+      "previous_close": 26.31,
+      "turnover_cny": 2602878907.85
     },
     "300693": {
       "code": "300693",
@@ -317,16 +317,16 @@
       "previous_close": 29.95,
       "turnover_cny": 141915086.97
     },
-    "300413": {
-      "code": "300413",
-      "name": "芒果超媒",
-      "price": 28.2,
-      "change_pct": 7.18,
-      "high": 28.35,
-      "low": 25.36,
-      "open": 25.69,
-      "previous_close": 26.31,
-      "turnover_cny": 2602878907.85
+    "300364": {
+      "code": "300364",
+      "name": "中文在线",
+      "price": 22.88,
+      "change_pct": 2.97,
+      "high": 22.96,
+      "low": 21.2,
+      "open": 21.88,
+      "previous_close": 22.22,
+      "turnover_cny": 1264235360.31
     },
     "300750": {
       "code": "300750",
@@ -338,17 +338,6 @@
       "open": 230.0,
       "previous_close": 234.58,
       "turnover_cny": 5896192390.72
-    },
-    "300762": {
-      "code": "300762",
-      "name": "上海瀚讯",
-      "price": 18.05,
-      "change_pct": -3.32,
-      "high": 18.28,
-      "low": 17.7,
-      "open": 18.22,
-      "previous_close": 18.67,
-      "turnover_cny": 197664428.19
     },
     "300759": {
       "code": "300759",
@@ -371,6 +360,17 @@
       "open": 40.99,
       "previous_close": 41.47,
       "turnover_cny": 635844581.26
+    },
+    "300762": {
+      "code": "300762",
+      "name": "上海瀚讯",
+      "price": 18.05,
+      "change_pct": -3.32,
+      "high": 18.28,
+      "low": 17.7,
+      "open": 18.22,
+      "previous_close": 18.67,
+      "turnover_cny": 197664428.19
     },
     "301171": {
       "code": "301171",
@@ -405,17 +405,6 @@
       "previous_close": 106.51,
       "turnover_cny": 881733831.62
     },
-    "600111": {
-      "code": "600111",
-      "name": "北方稀土",
-      "price": 31.34,
-      "change_pct": -4.07,
-      "high": 32.12,
-      "low": 31.11,
-      "open": 31.92,
-      "previous_close": 32.67,
-      "turnover_cny": 670660050.0
-    },
     "600196": {
       "code": "600196",
       "name": "复星医药",
@@ -427,16 +416,16 @@
       "previous_close": 20.71,
       "turnover_cny": 235019702.0
     },
-    "600276": {
-      "code": "600276",
-      "name": "恒瑞医药",
-      "price": 45.97,
-      "change_pct": -1.94,
-      "high": 46.44,
-      "low": 45.86,
-      "open": 46.17,
-      "previous_close": 46.88,
-      "turnover_cny": 795754306.0
+    "600111": {
+      "code": "600111",
+      "name": "北方稀土",
+      "price": 31.34,
+      "change_pct": -4.07,
+      "high": 32.12,
+      "low": 31.11,
+      "open": 31.92,
+      "previous_close": 32.67,
+      "turnover_cny": 670660050.0
     },
     "600499": {
       "code": "600499",
@@ -449,6 +438,17 @@
       "previous_close": 12.18,
       "turnover_cny": 147598929.0
     },
+    "600276": {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "price": 45.97,
+      "change_pct": -1.94,
+      "high": 46.44,
+      "low": 45.86,
+      "open": 46.17,
+      "previous_close": 46.88,
+      "turnover_cny": 795754306.0
+    },
     "600547": {
       "code": "600547",
       "name": "山东黄金",
@@ -459,17 +459,6 @@
       "open": 22.5,
       "previous_close": 23.65,
       "turnover_cny": 1410290059.0
-    },
-    "600570": {
-      "code": "600570",
-      "name": "恒生电子",
-      "price": 19.8,
-      "change_pct": -1.88,
-      "high": 20.25,
-      "low": 19.55,
-      "open": 19.79,
-      "previous_close": 20.18,
-      "turnover_cny": 252831816.0
     },
     "601519": {
       "code": "601519",
@@ -482,16 +471,16 @@
       "previous_close": 7.63,
       "turnover_cny": 195652999.0
     },
-    "601689": {
-      "code": "601689",
-      "name": "拓普集团",
-      "price": 49.01,
-      "change_pct": -0.87,
-      "high": 49.98,
-      "low": 47.89,
-      "open": 48.96,
-      "previous_close": 49.44,
-      "turnover_cny": 1225792072.0
+    "600570": {
+      "code": "600570",
+      "name": "恒生电子",
+      "price": 19.8,
+      "change_pct": -1.88,
+      "high": 20.25,
+      "low": 19.55,
+      "open": 19.79,
+      "previous_close": 20.18,
+      "turnover_cny": 252831816.0
     },
     "601600": {
       "code": "601600",
@@ -503,6 +492,17 @@
       "open": 7.6,
       "previous_close": 7.73,
       "turnover_cny": 566429985.0
+    },
+    "601689": {
+      "code": "601689",
+      "name": "拓普集团",
+      "price": 49.01,
+      "change_pct": -0.87,
+      "high": 49.98,
+      "low": 47.89,
+      "open": 48.96,
+      "previous_close": 49.44,
+      "turnover_cny": 1225792072.0
     },
     "601698": {
       "code": "601698",
@@ -581,17 +581,6 @@
       "previous_close": 47.7,
       "turnover_cny": 292004878.0
     },
-    "603993": {
-      "code": "603993",
-      "name": "洛阳钼业",
-      "price": 11.45,
-      "change_pct": -3.7,
-      "high": 11.57,
-      "low": 11.26,
-      "open": 11.49,
-      "previous_close": 11.89,
-      "turnover_cny": 1276908559.0
-    },
     "603986": {
       "code": "603986",
       "name": "兆易创新",
@@ -602,6 +591,17 @@
       "open": 210.0,
       "previous_close": 218.81,
       "turnover_cny": 3269364078.0
+    },
+    "603993": {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "price": 11.45,
+      "change_pct": -3.7,
+      "high": 11.57,
+      "low": 11.26,
+      "open": 11.49,
+      "previous_close": 11.89,
+      "turnover_cny": 1276908559.0
     },
     "605117": {
       "code": "605117",
@@ -614,17 +614,6 @@
       "previous_close": 79.4,
       "turnover_cny": 409622304.0
     },
-    "688017": {
-      "code": "688017",
-      "name": "绿的谐波",
-      "price": 243.05,
-      "change_pct": -1.12,
-      "high": 248.89,
-      "low": 238.0,
-      "open": 239.59,
-      "previous_close": 245.8,
-      "turnover_cny": 974229491.0
-    },
     "688008": {
       "code": "688008",
       "name": "澜起科技",
@@ -635,6 +624,17 @@
       "open": 130.78,
       "previous_close": 137.6,
       "turnover_cny": 2373356733.0
+    },
+    "688017": {
+      "code": "688017",
+      "name": "绿的谐波",
+      "price": 243.05,
+      "change_pct": -1.12,
+      "high": 248.89,
+      "low": 238.0,
+      "open": 239.59,
+      "previous_close": 245.8,
+      "turnover_cny": 974229491.0
     },
     "688037": {
       "code": "688037",
@@ -680,17 +680,6 @@
       "previous_close": 18.05,
       "turnover_cny": 91202004.0
     },
-    "688185": {
-      "code": "688185",
-      "name": "康希诺",
-      "price": 57.16,
-      "change_pct": -2.12,
-      "high": 57.33,
-      "low": 55.99,
-      "open": 56.97,
-      "previous_close": 58.4,
-      "turnover_cny": 118630370.0
-    },
     "688165": {
       "code": "688165",
       "name": "埃夫特-U",
@@ -701,6 +690,17 @@
       "open": 12.5,
       "previous_close": 12.77,
       "turnover_cny": 78208267.0
+    },
+    "688185": {
+      "code": "688185",
+      "name": "康希诺",
+      "price": 57.16,
+      "change_pct": -2.12,
+      "high": 57.33,
+      "low": 55.99,
+      "open": 56.97,
+      "previous_close": 58.4,
+      "turnover_cny": 118630370.0
     },
     "688222": {
       "code": "688222",
@@ -746,17 +746,6 @@
       "previous_close": 934.0,
       "turnover_cny": 5395084436.0
     },
-    "688318": {
-      "code": "688318",
-      "name": "财富趋势",
-      "price": 59.0,
-      "change_pct": 0.51,
-      "high": 59.69,
-      "low": 57.11,
-      "open": 57.36,
-      "previous_close": 58.7,
-      "turnover_cny": 186745156.0
-    },
     "688276": {
       "code": "688276",
       "name": "百克生物",
@@ -778,6 +767,17 @@
       "open": 27.6,
       "previous_close": 27.9,
       "turnover_cny": 102275852.0
+    },
+    "688318": {
+      "code": "688318",
+      "name": "财富趋势",
+      "price": 59.0,
+      "change_pct": 0.51,
+      "high": 59.69,
+      "low": 57.11,
+      "open": 57.36,
+      "previous_close": 58.7,
+      "turnover_cny": 186745156.0
     },
     "688333": {
       "code": "688333",
@@ -856,17 +856,6 @@
       "previous_close": 253.0,
       "turnover_cny": 248640147.0
     },
-    "688827": {
-      "code": "688827",
-      "name": "钶锐锶",
-      "price": 83.1,
-      "change_pct": 2.34,
-      "high": 84.89,
-      "low": 77.91,
-      "open": 78.03,
-      "previous_close": 81.2,
-      "turnover_cny": 157264445.0
-    },
     "688813": {
       "code": "688813",
       "name": "泰金新能",
@@ -877,6 +866,17 @@
       "open": 68.4,
       "previous_close": 72.0,
       "turnover_cny": 118904168.0
+    },
+    "688827": {
+      "code": "688827",
+      "name": "钶锐锶",
+      "price": 83.1,
+      "change_pct": 2.34,
+      "high": 84.89,
+      "low": 77.91,
+      "open": 78.03,
+      "previous_close": 81.2,
+      "turnover_cny": 157264445.0
     },
     "920207": {
       "code": "920207",
